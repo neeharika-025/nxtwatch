@@ -35,6 +35,7 @@ const VideoItemDetails = () => {
 
   useEffect(() => {
     getVideoDetails();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const getVideoDetails = async () => {

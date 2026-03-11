@@ -25,6 +25,7 @@ const Trending = () => {
   useEffect(() => {
     changeActiveTab("TRENDING");
     getVideos();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getVideos = async () => {

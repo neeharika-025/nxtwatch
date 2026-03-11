@@ -26,6 +26,7 @@ const Home = () => {
   useEffect(() => {
     changeActiveTab("HOME");
     getVideos();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getVideos = async () => {

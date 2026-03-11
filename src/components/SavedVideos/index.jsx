@@ -13,6 +13,7 @@ const SavedVideos = () => {
 
   useEffect(() => {
     changeActiveTab("SAVED");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const renderNoSavedVideos = () => (

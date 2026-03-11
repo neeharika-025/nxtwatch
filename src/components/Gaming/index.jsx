@@ -24,6 +24,7 @@ const Gaming = () => {
   useEffect(() => {
     changeActiveTab("GAMING");
     getVideos();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getVideos = async () => {
